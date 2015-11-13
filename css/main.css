@@ -1,14 +1,18 @@
 .circle {
-	width: 20%;
+	width: 30%;
+}
+
+.masthead {
+	background-color: #53a5a1
 }
 
 @media only screen and (min-width: 25em) {
 
-.nav li {
+nav li {
 	display: inline-block;
 }
 
-.nav {
+nav {
 	text-align: center;
 }
 }
