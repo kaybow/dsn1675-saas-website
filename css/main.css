@@ -1,9 +1,23 @@
+
+html {
+	font-family: 'Raleway', sans-serif;
+}
+
 .masthead {
 	background-color: #53a5a1
 }
 
+.font{
+	font-family: 'Pinyon Script', cursive;
+}
+
 .bg {
 	background-color: #9fd7ca
+}
+
+.absolute {
+	position: absolute; bottom: 20em;
+	width: 100%;
 }
 
 li a {
@@ -20,6 +34,10 @@ li a {
 
 a {
 	text-decoration: none;
+}
+
+p {
+	color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
