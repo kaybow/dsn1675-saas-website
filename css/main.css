@@ -6,6 +6,14 @@
 	background-color: #53a5a1
 }
 
+.bg {
+	background-color: #9fd7ca
+}
+
+a {
+	text-decoration: none;
+}
+
 @media only screen and (min-width: 25em) {
 
 nav li {
