@@ -4,15 +4,16 @@ html {
 }
 
 .masthead {
-	background-color: #53a5a1
-}
-
-.font{
-	font-family: 'Pinyon Script', cursive;
+	background-color: #9a9b9b
 }
 
 .bg {
 	background-color: #9fd7ca
+}
+
+.signup {
+	position: absolute; bottom: 30em;
+	width: 100%;
 }
 
 .absolute {
@@ -22,10 +23,8 @@ html {
 
 li a {
 	text-decoration: none;
-	background-color: #9fd7ca;
 	color: #fff;
 	display: block;
-	padding: 0.5em;
 }
 
 .a {
