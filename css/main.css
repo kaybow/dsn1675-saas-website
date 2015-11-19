@@ -38,8 +38,12 @@ a {
 	color: #fff;
 }
 
+b {
+	color: black;
+}
+
 p {
-	color: #fff;
+	color: black;
 }
 
 @media only screen and (min-width: 25em) {
