@@ -7,13 +7,15 @@ html {
 	background-color: #9a9b9b
 }
 
-.bg {
+.bg, .signup{
 	background-color: #9fd7ca
 }
 
 .signup {
-	position: absolute; bottom: 30em;
-	width: 100%;
+	position: absolute;
+	bottom: 15em;
+	left: 80%;
+transform: translateX(-20%);
 }
 
 .absolute {
@@ -28,11 +30,12 @@ li a {
 }
 
 .a {
-	background-color: #53a5a1
+	background-color: #9a9b9b
 }
 
 a {
 	text-decoration: none;
+	color: #fff;
 }
 
 p {
