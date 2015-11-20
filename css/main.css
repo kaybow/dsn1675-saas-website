@@ -38,7 +38,7 @@ a {
 	color: #fff;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 20em) {
 
 nav li {
 	display: inline-block;
