@@ -6,38 +6,38 @@
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grids.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="css/modules.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
 </head>
 
 <body class="push-0">
 
-	<header class="masthead">
+<ul class="skip-links">
+	<li><a href="#main">Jump to main content</a></li>
+	<li><a href="#nav">Jump to navigation</a></li>
+</ul>
+
+	<header class="masthead" role="banner">
 		<div class="grid">
 				<div class="unit xs-1 s-1-4 m-1-4 l-1-4 island-1-2">
-					<img src="http://placehold.it/80x80" alt="">
+					<img src="http://placehold.it/80x80" alt="One plus one">
 				</div>
 
-				<nav class="push-0">
-					<ol class="list-group">
-						<div class="unit xs-1 s-1-4 m-1-4 l-1-4 gutter">
-							<li class="island-1-2"><a href="index.html"><b>Home</b></a></li>
-						</div>
-						<div class="unit xs-1 s-1-4 m-1-4 l-1-4 gutter">
-							<li class="island-1-2"><a href="tour.html"><b>Tour</b></a></li>
-						</div>
-						<div class="unit xs-1 s-1-4 m-1-4 l-1-4 gutter">
-							<li class="island-1-2"><a href=""><b>Log In</b></a></li>
-						</div>
-					</ol>
-				</nav>
-			</div>
+			<nav id="nav" role="navigation" class="unit xs-1 s-3-4 m-3-4 l-3-4 push-0 list-group">
+				<ol class="grid">
+					<li class="unit xs-1 s-1-4 m-1-4 l-1-4 gutter island-1-2"><a href="tour.html"><b>Tour</b></a></li>
+					<li class="unit xs-1 s-1-4 m-1-4 l-1-4 gutter island-1-2"><a href="pricing.html"><b>Pricing</b></a></li>
+					<li class="unit xs-1 s-1-4 m-1-4 l-1-4 gutter island-1-2"><a href=""><b>Log In</b></a></li>
+				</ol>
+			</nav>
+		</div>
+		<a href="signup.html" class="signup island-1-2">Sign Up</a>
 	</header>
 
-<main>
+<main id="main" role="main">
 	<div>
 		<div class="embed embed--4by3">
 			<img class="embed__item" src="http://placehold.it/640x480" alt="">
