@@ -7,15 +7,19 @@ html {
 	background-color: #9a9b9b
 }
 
+.masthead {
+	position:relative;
+}
+
 .bg, .signup {
 	background-color: #9fd7ca
 }
 
 .signup {
 	position: absolute;
-	bottom: 15em;
-	left: 80%;
-transform: translateX(-20%);
+	top: 15em;
+	right: 4em;
+	z-index:1000;
 }
 
 .banner {
@@ -28,7 +32,7 @@ transform: translateX(-20%);
 }
 
 .circle {
-	width: 15%;
+	width: 6em;
 }
 
 li a {
