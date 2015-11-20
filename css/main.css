@@ -3,11 +3,11 @@ html {
 	font-family: 'Raleway', sans-serif;
 }
 
-.masthead {
+.masthead, h1, h2 {
 	background-color: #9a9b9b
 }
 
-.bg, .signup{
+.bg, .signup {
 	background-color: #9fd7ca
 }
 
