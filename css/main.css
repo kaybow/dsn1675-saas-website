@@ -18,7 +18,7 @@ html {
 transform: translateX(-20%);
 }
 
-.absolute {
+.banner {
 	position: absolute; bottom: 20em;
 	width: 100%;
 }
@@ -36,14 +36,6 @@ li a {
 a {
 	text-decoration: none;
 	color: #fff;
-}
-
-b {
-	color: black;
-}
-
-p {
-	color: black;
 }
 
 @media only screen and (min-width: 25em) {
