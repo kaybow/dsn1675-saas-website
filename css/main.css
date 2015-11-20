@@ -23,14 +23,18 @@ transform: translateX(-20%);
 	width: 100%;
 }
 
+.a {
+	background-color: #9a9b9b
+}
+
+.circle {
+	width: 15%;
+}
+
 li a {
 	text-decoration: none;
 	color: #fff;
 	display: block;
-}
-
-.a {
-	background-color: #9a9b9b
 }
 
 a {
