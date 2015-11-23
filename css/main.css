@@ -3,12 +3,8 @@ html {
 	font-family: 'Raleway', sans-serif;
 }
 
-.masthead, h1, h2 {
+.masthead, h1, h2, h3 {
 	background-color: #9a9b9b
-}
-
-.masthead {
-	position:relative;
 }
 
 .banner-img {
@@ -18,9 +14,12 @@ html {
 	background-position: center center;
 }
 
-
 .bg, .signup {
 	background-color: #9fd7ca
+}
+
+.trans {
+	background-color: rgba(120, 195, 187, 0.6);
 }
 
 .signup {
@@ -28,11 +27,6 @@ html {
 	top: 15em;
 	right: 4em;
 	z-index:1000;
-}
-
-.banner {
-	position: absolute; bottom: 20em;
-	width: 100%;
 }
 
 .a {
