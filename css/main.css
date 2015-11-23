@@ -53,18 +53,18 @@ a {
 nav li {
 	display: inline-block;
 }
-}
 
 ol li {
 	display:inline-block;
+}
+
+p {
+	max-width: 30em;
 }
 }
 
 @media only screen and (min-width: 38em) {
 
-.logo-footer {
-	text-align: left;
-}
 }
 
 @media only screen and (min-width: 50em) {
