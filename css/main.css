@@ -25,7 +25,7 @@ html {
 .signup {
 	position: absolute;
 	top: 15em;
-	right: 4em;
+	right: 1em;
 	z-index:1000;
 }
 
@@ -48,7 +48,7 @@ a {
 	color: #fff;
 }
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 25em) {
 
 nav li {
 	display: inline-block;
@@ -58,13 +58,26 @@ ol li {
 	display:inline-block;
 }
 
+.signup {
+	position: absolute;
+	top: 7em;
+	right: 1.5em;
+	z-index:1000;
+}
+
 p {
-	max-width: 30em;
+	max-width: 35em;
 }
 }
 
 @media only screen and (min-width: 38em) {
 
+.signup {
+	position: absolute;
+	top: 0.5em;
+	right: 2.5em;
+	z-index:1000;
+}
 }
 
 @media only screen and (min-width: 50em) {
