@@ -7,6 +7,14 @@ html {
 	background-color: #9a9b9b
 }
 
+h1, h2, h3 {
+	color: #fff;
+}
+
+h3 {
+	font-weight: normal;
+}
+
 .banner-img {
 	background-image: url("http://placehold.it/2000x1500");
 	min-height: 300px;
@@ -82,4 +90,5 @@ p {
 
 @media only screen and (min-width: 50em) {
 
+}
 }
