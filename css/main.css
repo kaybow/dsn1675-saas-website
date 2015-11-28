@@ -7,7 +7,7 @@ html {
 	background-color: #5c5e5e
 }
 
-h1, h2, h3 {
+h1, h2, h3, .intro2 {
 	color: #fff;
 }
 
@@ -42,7 +42,7 @@ h3 {
 	background-color: #78c3bb;
 }
 
-.startbutton {
+.startbutton, .intro {
 	background-color: #fff;
 	color: #359088;
 }
