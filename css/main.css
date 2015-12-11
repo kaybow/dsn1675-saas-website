@@ -31,7 +31,8 @@ h3 {
 }
 
 .footersignup {
-	background-color: #359088
+	background-color: #359088;
+	display: inline-block;
 }
 
 .bg {
@@ -62,10 +63,8 @@ h3 {
 }
 
 .social {
-	width: 10em;
+	width: 2em;
 }
-
-
 
 a {
 	text-decoration: none;
@@ -91,6 +90,8 @@ ol li {
 
 p {
 	max-width: 35em;
+	margin-left: auto;
+	margin-right: auto;
 }
 }
 
