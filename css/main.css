@@ -42,9 +42,15 @@ h3 {
 	background-color: #78c3bb;
 }
 
-.startbutton, .intro {
+.intro {
 	background-color: #fff;
 	color: #359088;
+}
+
+.startbutton {
+	background-color: #fff;
+	color: #359088;
+	border: 1.5px solid black;
 }
 
 .greybutton {
