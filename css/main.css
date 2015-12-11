@@ -17,7 +17,7 @@ h3 {
 
 .banner-img {
 	background-image: url("../images/brideandgroomoverlay.jpg");
-	min-height: 450px;
+	min-height: 400px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -46,7 +46,7 @@ h3 {
 .startbutton {
 	background-color: #fff;
 	color: #359088;
-	border: 1.5px solid black;
+	border: 1.75px solid black;
 }
 
 .greybutton {
