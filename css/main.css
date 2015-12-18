@@ -4,7 +4,7 @@ html {
 }
 
 .masthead, h2 {
-	background-color: #5c5e5e
+	background-color: #5c5e5e;
 }
 
 h1, h2, h3, .intro2 {
@@ -13,6 +13,18 @@ h1, h2, h3, .intro2 {
 
 h3 {
 	font-weight: normal;
+}
+
+fieldset {
+	border: none;
+}
+
+label {
+	display: block;
+}
+
+input+label {
+	display:inline;
 }
 
 .step {

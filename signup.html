@@ -56,30 +56,25 @@
 		<div class="unit xs-1 s-1 m-1 l-1-2 text-center pad-t-1-2">
 			<h3 class="step">Step 1: Personal Information</h3>
 				<form>
-					<div class="pad-top pad-b">
+					<div class="pad-top">
 						<label>First Name</label>
-							<input id="first name" required name="name">
+							<input id="firstname" required name="name">
 					</div>
 
-					<div class="pad-top pad-b">
+					<div class="pad-top">
 						<label>Last Name</label>
-							<input id="last name" required name="name">
+							<input id="lastname" required name="name">
 					</div>
 
-					<div class="pad-top pad-b">
+					<div class="pad-top">
 						<label>Email</label>
 							<input id="email" type="email" name="email" required placeholder="user@yourdomain.com">
 					</div>
 
-					<div class="pad-top pad-b-2">
+					<div class="pad-top pad-b">
 						<label>Password</label>
-							<input type="password" id="password" required name="password" required placeholder="******" >
+							<input type="password" id="password" name="password" required placeholder="******" >
 					</div>
-
-					<div class="pad-b">
-						<a href="signup.html" class="startbutton island-1-2 gutter-2">Submit</a>
-					</div>
-				</form>
 		</div>
 
 		<div class="unit xs-1 s-1 m-1 l-1-2 text-center pad-t-1-2">
@@ -97,27 +92,32 @@
 				</select>
 			</div>
 
-			<div class="pad-top pad-b-2">
+			<div class="pad-top pad-b">
 				<label>Credit Card Number</label>
-					<input type="credit card" id="credit" required name="credit" required placeholder="*********" >
+					<input type="number" id="credit" required placeholder="*********" >
 			</div>
 
 			<fieldset>
 				<legend>Card Type</legend>
 
-			<input id="visa" type="radio" name="card type" value="visa">
-			<label for="visa">Visa</label>
+				<input id="visa" type="radio" name="card type" value="visa">
+				<label for="visa">Visa</label>
 
-			<input id="mastercard" type="radio" name="card type" value="mastercard">
-			<label for="mastercard">Mastercard</label>
+				<input id="mastercard" type="radio" name="card type" value="mastercard">
+				<label for="mastercard">Mastercard</label>
 
-			<input id="American Express" type="radio" name="card type" value="amex">
-			<label for="amex">AMEX</label>
+				<input id="americanexpress" type="radio" name="card type" value="amex">
+				<label for="americanexpress">AMEX</label>
 
-			<input id="Paypal" type="radio" name="card type" value="paypal">
-			<label for="paypal">Paypal</label>
+				<input id="paypal" type="radio" name="card type" value="paypal">
+				<label for="paypal">Paypal</label>
 
 		</fieldset>
+
+				<div class="pad-b">
+					<a href="signup.html" class="startbutton island-1-2 gutter-2">Submit</a>
+				</div>
+			</form>
 		</div>
 
 
