@@ -15,6 +15,10 @@ h3 {
 	font-weight: normal;
 }
 
+.step {
+	color: #5c5e5e;
+}
+
 .banner-img {
 	background-image: url("../images/brideandgroomoverlay.jpg");
 	min-height: 400px;
