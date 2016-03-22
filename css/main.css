@@ -38,6 +38,27 @@ input+label {
 	background-position: center center;
 }
 
+.banner-img2 {
+	background-image: url("../images/bridegroomfield.jpg");
+	min-height: 400px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.banner-img3 {
+	background-image: url("../images/hands.jpg");
+	min-height: 400px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.banner-img4 {
+	background-image: url("../images/ringsflower.jpg");
+	min-height: 400px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
 .signup {
 	position: absolute;
 	top: 15em;
