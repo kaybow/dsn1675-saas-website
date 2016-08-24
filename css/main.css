@@ -3,7 +3,11 @@ html {
 	font-family: 'Raleway', sans-serif;
 }
 
-.masthead, h2 {
+.masthead {
+
+}
+
+h2 {
 	background-color: #5c5e5e;
 }
 
@@ -59,14 +63,6 @@ input+label {
 	background-position: right;
 }
 
-.signup {
-	position: absolute;
-	top: 15em;
-	right: 1em;
-	z-index:1000;
-	background-color: #359088
-}
-
 .footersignup {
 	background-color: #359088;
 	display: inline-block;
@@ -109,7 +105,7 @@ input+label {
 
 a {
 	text-decoration: none;
-	color: #fff;
+	color: #0e564d;
 }
 
 @media only screen and (min-width: 25em) {
