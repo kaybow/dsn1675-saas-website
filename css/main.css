@@ -3,6 +3,11 @@ html {
 	font-family: 'Raleway', sans-serif;
 }
 
+body {
+	margin-right: 5.5em;
+	margin-left: 5.5em;
+}
+
 h2 {
 	background-color: #5c5e5e;
 }
@@ -33,28 +38,28 @@ input+label {
 
 .banner-img {
 	background-image: url("../images/brideandgroom.jpg");
-	min-height: 400px;
+	min-height: 450px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
 .banner-img2 {
 	background-image: url("../images/bridegroomfield.jpg");
-	min-height: 400px;
+	min-height: 450px;
 	background-repeat: no-repeat;
 	background-position: right;
 }
 
 .banner-img3 {
 	background-image: url("../images/hands.jpg");
-	min-height: 400px;
+	min-height: 450px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
 .banner-img4 {
 	background-image: url("../images/ringsflower.jpg");
-	min-height: 400px;
+	min-height: 450px;
 	background-repeat: no-repeat;
 	background-position: right;
 }
@@ -76,7 +81,7 @@ input+label {
 	border: 1.75px solid black;
 }
 
-.greybutton {
+.linkbutton {
 	border: 1.75px solid black;
 }
 
