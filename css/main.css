@@ -8,7 +8,7 @@ h2 {
 }
 
 h1, h2, h3, .intro2 {
-	color: #fff;
+	color: #0e564d;
 }
 
 h3 {
@@ -32,7 +32,7 @@ input+label {
 }
 
 .banner-img {
-	background-image: url("../images/brideandgroomoverlay.jpg");
+	background-image: url("../images/brideandgroom.jpg");
 	min-height: 400px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -70,6 +70,16 @@ input+label {
 	padding: 1em;
 }
 
+
+.startbutton {
+	background-color: #fff;
+	border: 1.75px solid black;
+}
+
+.greybutton {
+	border: 1.75px solid black;
+}
+
 .bg {
 	background-color: #78c3bb;
 }
@@ -83,16 +93,6 @@ input+label {
 	background-color: #78c3bb;
 }
 
-.startbutton {
-	background-color: #fff;
-	color: #359088;
-	border: 1.75px solid black;
-}
-
-.greybutton {
-	background-color: #9a9b9b
-}
-
 .logo {
 	width: 4em;
 }
@@ -103,10 +103,7 @@ input+label {
 
 .social {
 	width: 2em;
-}
-
-.socialmedia {
-
+	padding-top: 0.5em;
 }
 
 a {
