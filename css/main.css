@@ -4,8 +4,8 @@ html {
 }
 
 body {
-	margin-right: 5.5em;
-	margin-left: 5.5em;
+	margin-right: 5em;
+	margin-left: 5em;
 }
 
 h2 {
@@ -13,11 +13,28 @@ h2 {
 }
 
 h1, h2, h3, .intro2 {
-	color: #0e564d;
+	color: #fff;
 }
 
 h3 {
 	font-weight: normal;
+}
+
+.pitch {
+	padding-bottom: 1.5em;
+	font-size: 1.2em;
+	padding-left: 3em
+}
+
+.pitcht {
+	padding-bottom: .75em;
+	font-size: 1.2em;
+}
+
+.tagline {
+	padding-top: 3em;
+	font-size: 1.8rem;
+	padding-left: 1.8em
 }
 
 fieldset {
@@ -37,61 +54,68 @@ input+label {
 }
 
 .banner-img {
-	background-image: url("../images/brideandgroom.jpg");
-	min-height: 450px;
+	background-image: url("../images/brideandgroom2.jpg");
+	min-height: 500px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
 .banner-img2 {
 	background-image: url("../images/bridegroomfield.jpg");
-	min-height: 450px;
+	min-height: 300px;
 	background-repeat: no-repeat;
 	background-position: right;
 }
 
 .banner-img3 {
 	background-image: url("../images/hands.jpg");
-	min-height: 450px;
+	min-height: 300px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
 .banner-img4 {
 	background-image: url("../images/ringsflower.jpg");
-	min-height: 450px;
+	min-height: 300px;
 	background-repeat: no-repeat;
 	background-position: right;
 }
 
 .signup a {
-	border: 1.75px solid black;
-	padding: 1em;
+	border: 2px solid black;
+	padding: .75em;
 }
 
 .footersignup {
 	display: inline-block;
-	border: 1.75px solid black;
-	padding: 1em;
+	border: 2px solid black;
+	padding: .75em;
 }
 
+.linkbutton, .startbutton {
+	color: #fff;
+	border: 2px solid white;
+}
 
 .startbutton {
-	background-color: #fff;
-	border: 1.75px solid black;
+	margin-left: 3.5em;
 }
 
-.linkbutton {
-	border: 1.75px solid black;
+.startbuttont {
+	color: #fff;
+	border: 2px solid white;
 }
 
 .bg {
-	background-color: #78c3bb;
+	background-color: #83a4a5;
+}
+
+.bg2 {
+	background-color: #98b6b7;
 }
 
 .intro {
-	background-color: #fff;
-	color: #359088;
+	color: #fff;
 }
 
 .plans {
@@ -113,7 +137,7 @@ input+label {
 
 a {
 	text-decoration: none;
-	color: #0e564d;
+	color: #16897e;
 }
 
 @media only screen and (min-width: 25em) {
