@@ -82,24 +82,22 @@ input+label {
 }
 
 .signup a {
-	border: 2px solid black;
-	padding: .75em;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #16897e;
+	padding: 12px 30px;
 }
 
 .footersignup {
 	display: inline-block;
-	border: 2px solid black;
-	padding: .75em;
+	border: 1px solid black;
+	padding: 12px 30px;
 }
 
 .linkbutton {
 	color: #fff;
-	border: 2px solid white;
-}
-
-.startbuttont {
-	color: #fff;
-	border: 2px solid white;
+	border: 1px solid white;
+	padding: 12px 30px;
 }
 
 .bg {
