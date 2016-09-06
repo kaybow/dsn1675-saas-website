@@ -92,13 +92,9 @@ input+label {
 	padding: .75em;
 }
 
-.linkbutton, .startbutton {
+.linkbutton {
 	color: #fff;
 	border: 2px solid white;
-}
-
-.startbutton {
-	margin-left: 3.5em;
 }
 
 .startbuttont {
@@ -123,8 +119,7 @@ input+label {
 }
 
 .logo {
-	width: 2.75em;
-	text-center;
+	width: 3.5em;
 }
 
 .circle {
