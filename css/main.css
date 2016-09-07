@@ -20,6 +20,22 @@ h3 {
 	font-weight: normal;
 }
 
+fieldset {
+	border: none;
+}
+
+label {
+	display: block;
+}
+
+input+label {
+	display:inline;
+}
+
+nav li {
+	display: inline-block;
+}
+
 .billboard {
 	background: rgba(59, 163, 157, 0.65);
 	margin-top: 6em;
@@ -40,18 +56,6 @@ h3 {
 .pitcht {
 	padding-bottom: .75em;
 	font-size: 1.2em;
-}
-
-fieldset {
-	border: none;
-}
-
-label {
-	display: block;
-}
-
-input+label {
-	display:inline;
 }
 
 .step {
@@ -109,18 +113,14 @@ input+label {
 	background-color: #98b6b7;
 	border-style: solid;
 	border-color: #fff;
-	border-top-width: 15px;
-	border-left-width: 15px;
-	border-right-width: 8px;
+	border-width: 15px;
 }
 
 .bg2 {
 	background-color: #83a4a5;
 	border-style: solid;
 	border-color: #fff;
-	border-top-width: 15px;
-	border-right-width: 15px;
-	border-left-width: 8px;
+	border-width: 15px;
 }
 
 .intro {
@@ -151,12 +151,8 @@ a {
 
 @media only screen and (min-width: 25em) {
 
-nav li {
-	display: inline-block;
-}
 
-ol li {
-	display:inline-block;
+
 }
 }
 
