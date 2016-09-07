@@ -20,21 +20,26 @@ h3 {
 	font-weight: normal;
 }
 
+.billboard {
+	background: rgba(59, 163, 157, 0.65);
+	margin-top: 6em;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+.tagline {
+	padding-top: 1em;
+	font-size: 1.8rem;
+}
+
 .pitch {
 	padding-bottom: 1.5em;
 	font-size: 1.2em;
-	padding-left: 3em
 }
 
 .pitcht {
 	padding-bottom: .75em;
 	font-size: 1.2em;
-}
-
-.tagline {
-	padding-top: 3em;
-	font-size: 1.8rem;
-	padding-left: 1.8em
 }
 
 fieldset {
@@ -54,8 +59,8 @@ input+label {
 }
 
 .banner-img {
-	background-image: url("../images/brideandgroom2.jpg");
-	min-height: 500px;
+	background-image: url("../images/brideandgroom.jpg");
+	min-height: 420px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -101,11 +106,21 @@ input+label {
 }
 
 .bg {
-	background-color: #83a4a5;
+	background-color: #98b6b7;
+	border-style: solid;
+	border-color: #fff;
+	border-top-width: 15px;
+	border-left-width: 15px;
+	border-right-width: 8px;
 }
 
 .bg2 {
-	background-color: #98b6b7;
+	background-color: #83a4a5;
+	border-style: solid;
+	border-color: #fff;
+	border-top-width: 15px;
+	border-right-width: 15px;
+	border-left-width: 8px;
 }
 
 .intro {
