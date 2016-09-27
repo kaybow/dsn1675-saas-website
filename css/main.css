@@ -8,11 +8,15 @@ body {
 	margin-left: 3.5em;
 }
 
+h1 {
+	color: #ef5048;
+}
+
 h2 {
 	background-color: #5c5e5e;
 }
 
-h1, h2, h3, .intro2 {
+h2, h3, .intro2 {
 	color: #fff;
 }
 
@@ -44,7 +48,7 @@ ol li {
 }
 
 .billboard {
-	background: rgba(59, 163, 157, 0.7);
+	background: rgba(229, 96, 74, 0.75);
 	margin-top: 5em;
 	margin-left: 4.5em;
 	margin-right: 4.5em;
@@ -53,6 +57,7 @@ ol li {
 .tagline {
 	padding-top: 1em;
 	font-size: 1.8rem;
+	color: #fff;
 }
 
 .pitch {
@@ -88,27 +93,6 @@ input+label {
 	background-position: center center;
 }
 
-.banner-img2 {
-	background-image: url("../images/bridegroomfield.jpg");
-	min-height: 300px;
-	background-repeat: no-repeat;
-	background-position: right;
-}
-
-.banner-img3 {
-	background-image: url("../images/hands.jpg");
-	min-height: 300px;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
-.banner-img4 {
-	background-image: url("../images/ringsflower.jpg");
-	min-height: 100px;
-	background-repeat: no-repeat;
-	background-position: right;
-}
-
 .signup a {
 	border-style: solid;
 	border-width: 1px;
@@ -129,14 +113,14 @@ input+label {
 }
 
 .bg {
-	background-color: #98b6b7;
+	background-color: #e27664;
 	border-style: solid;
 	border-width: 15px;
 	border-color: #fff;
 }
 
 .bg2 {
-	background-color: #83a4a5;
+	background-color: #e27664;
 	border-style: solid;
 	border-width: 15px;
 	border-color: #fff;
@@ -146,8 +130,12 @@ input+label {
 	color: #fff;
 }
 
+.list, .price {
+	color: #ef5048
+}
+
 .plans {
-	background-color: #78c3bb;
+	background-color: #ef5048;
 }
 
 .logo {
