@@ -4,8 +4,8 @@ html {
 }
 
 body {
-	margin-right: 5em;
-	margin-left: 5em;
+	margin-right: 3.5em;
+	margin-left: 3.5em;
 }
 
 h2 {
@@ -104,7 +104,7 @@ input+label {
 
 .banner-img4 {
 	background-image: url("../images/ringsflower.jpg");
-	min-height: 300px;
+	min-height: 100px;
 	background-repeat: no-repeat;
 	background-position: right;
 }
